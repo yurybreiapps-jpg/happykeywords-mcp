@@ -7,6 +7,12 @@ listing.
 The MCP server is built into **HappyKeywords**, a Mac app. This repo holds the setup and the tool
 list only; there is no source code here. Docs: https://happykeywords.com/docs/mcp
 
+## Watch: a one-minute demo
+
+[![Claude Code asks HappyKeywords which App Store keyword to go after next](demo.jpg)](https://youtu.be/LqssKW3O0nc)
+
+Claude Code reads an app's real ranks, demand and difficulty from HappyKeywords and picks the keyword to go after next. [Watch on YouTube](https://youtu.be/LqssKW3O0nc) · [Vertical version](https://youtube.com/shorts/aBjpTpWmq-U)
+
 ## What it does
 
 - Track your apps and competitors in 50+ countries, with daily ranks
