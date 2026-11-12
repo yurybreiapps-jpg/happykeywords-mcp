@@ -22,7 +22,7 @@ Claude Code reads an app's real ranks, demand and difficulty from HappyKeywords 
 - Upload them into your draft version in App Store Connect: a preview first, Undo after. Nothing is ever submitted for review.
 - Hot niches and product ideas before you build
 
-104 tools. Long jobs run inside the app; the agent follows them with `wait`.
+112 tools. Long jobs run inside the app; the agent follows them with `wait`.
 
 ## Requirements
 
@@ -73,7 +73,8 @@ codex mcp add happykeywords -- "/Applications/HappyKeywords.app/Contents/MacOS/H
 |---|---|
 | Apps, keywords and ranks | 41 |
 | App Store Connect | 5 |
-| AI and jobs | 17 |
+| AI and jobs | 18 |
+| Top earners | 7 |
 | Audit | 4 |
 | Optimize | 33 |
 | Upload | 4 |
