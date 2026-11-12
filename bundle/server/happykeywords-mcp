@@ -1,0 +1,8 @@
+#!/bin/sh
+# Starts the MCP server built into the HappyKeywords Mac app.
+APP="/Applications/HappyKeywords.app/Contents/MacOS/HappyKeywords"
+if [ ! -x "$APP" ]; then
+  echo "HappyKeywords isn't installed in /Applications. Download it at https://happykeywords.com/?ref=mcpb (7-day free trial), then try again." >&2
+  exit 1
+fi
+exec "$APP" --mcp

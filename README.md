@@ -5,7 +5,7 @@ MCP app which keywords to target, where your app ranks in 50+ countries, and wha
 listing.
 
 The MCP server is built into **HappyKeywords**, a Mac app. This repo holds the setup and the tool
-list only; there is no source code here. Docs: https://happykeywords.com/docs/mcp
+list, plus a small bundle that starts the app's server; the app's source isn't here. Docs: https://happykeywords.com/docs/mcp
 
 ## Watch: a one-minute demo
 
@@ -34,6 +34,10 @@ Claude Code reads an app's real ranks, demand and difficulty from HappyKeywords 
 ## Connect
 
 One click: in HappyKeywords, open **Settings → AI apps (MCP)** and press **Add** next to your agent.
+
+**Claude desktop, as a bundle:** download `happykeywords.mcpb` from the
+[latest release](https://github.com/yurybreiapps-jpg/happykeywords-mcp/releases/latest) and open it.
+The bundle only starts the MCP server inside the installed app (source in `bundle/`).
 
 Or by hand:
 

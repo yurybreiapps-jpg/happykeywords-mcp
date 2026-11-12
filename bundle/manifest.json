@@ -1,0 +1,26 @@
+{
+  "manifest_version": "0.3",
+  "name": "happykeywords",
+  "display_name": "HappyKeywords",
+  "version": "1.0.0",
+  "description": "App Store keyword research (ASO) from your AI agent: ranks in 50+ countries, demand and difficulty estimates, listing audits and rewrites.",
+  "long_description": "Connects your agent to HappyKeywords, a Mac app for App Store keywords. Ask which keywords to target, where your app ranks in 50+ countries and what to fix in your listing. Everything runs on your Mac. Needs HappyKeywords installed in /Applications (7-day free trial, then a one-time license; no subscription). Uploads to App Store Connect happen only after you approve a preview, and nothing is ever submitted for review.",
+  "author": { "name": "Yury Brei", "url": "https://happykeywords.com" },
+  "homepage": "https://happykeywords.com",
+  "documentation": "https://happykeywords.com/docs/mcp",
+  "support": "https://happykeywords.com/contact",
+  "repository": { "type": "git", "url": "https://github.com/yurybreiapps-jpg/happykeywords-mcp" },
+  "icon": "icon.png",
+  "server": {
+    "type": "binary",
+    "entry_point": "server/happykeywords-mcp",
+    "mcp_config": {
+      "command": "${__dirname}/server/happykeywords-mcp",
+      "args": [],
+      "env": {}
+    }
+  },
+  "keywords": ["aso", "app store", "keywords", "app store optimization", "ios", "app store connect"],
+  "license": "Proprietary",
+  "compatibility": { "platforms": ["darwin"] }
+}

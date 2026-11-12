@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.yurybreiapps-jpg/happykeywords",
+  "title": "HappyKeywords",
+  "description": "App Store keyword research (ASO): ranks in 50+ countries, demand, difficulty. Needs the Mac app.",
+  "websiteUrl": "https://happykeywords.com/docs/mcp",
+  "repository": { "url": "https://github.com/yurybreiapps-jpg/happykeywords-mcp", "source": "github" },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/yurybreiapps-jpg/happykeywords-mcp/releases/download/v1.0.0/happykeywords.mcpb",
+      "fileSha256": "a1490b0b78386aa2cb690599b8f6d91057281f87994039d57fadef0cbbc7e72a",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
