@@ -1,5 +1,7 @@
 # HappyKeywords MCP server
 
+[![HappyKeywords MCP on mcprush](https://mcprush.com/badge/happykeywords-mcp/score.svg)](https://mcprush.com/to/happykeywords-mcp?ref=badge)
+
 App Store keyword research (ASO) from your AI agent. Ask Claude Code, Codex, Cursor, Claude or any
 MCP app which keywords to target, where your app ranks in 50+ countries, and what to fix in your
 listing.
